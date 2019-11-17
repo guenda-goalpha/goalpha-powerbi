@@ -1,5 +1,4 @@
 from fastapi import FastAPI
-import pypyodbc as podbc
 import pyodbc
 import json
 app = FastAPI()
