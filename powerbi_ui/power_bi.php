@@ -32,6 +32,8 @@ if (isset($_POST['endpoint']) && isset($_POST['query']))
     $sql = "INSERT INTO datas (end_point, query) VALUES ('".$endpoint."','".$query."')";
     if (pg_query($conn,$sql)) {
         echo "Te dhenat u shtuan!";
+        $new_url = "http://b8dca45a.ngrok.io/api/".$endpoint;
+        header("Location: ".$new_url);
     } else {
         echo "Error: " . $sql . "<br>" . $conn->error;
     }
