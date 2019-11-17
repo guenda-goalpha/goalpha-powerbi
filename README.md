@@ -2,7 +2,7 @@
 
 **Tasks Accomplished**
 
-- Write queries which get the data from the database;
+- Write queries which get the data from sql database through a connector;
 - Making the database connection in python and using queries to build endpoints;
 - Built UI which now allows users to input "endpoint" and "queries" using php and inserts these data into postgres database;
 - Recieving endpoint and the query from postgress database and returned the data in json according to the endpoint.
