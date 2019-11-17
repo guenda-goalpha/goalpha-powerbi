@@ -8,4 +8,5 @@
 - Recieving endpoint and the query from postgress database and returned the data in json according to the endpoint.
 
 **Example**  - [Endpoint Magazinat](http://250703d5.ngrok.io/api/magazinat)
+
 **Note** - *This endpoint can be further used to create different charts in PowerBI.*
