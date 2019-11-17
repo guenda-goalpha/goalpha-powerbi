@@ -1,0 +1,42 @@
+<link href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+<div class="container">
+    <div id="loginbox" style="margin-top:50px;" class="mainbox col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
+        <div class="panel panel-info">
+            <div class="panel-heading">
+                <center><div class="panel-title"><b>Power BI</b></div></center>
+            </div>
+
+            <div style="padding-top:30px; background-color: grey" class="panel-body" >
+;
+                <div style="display:none" id="login-alert" class="alert alert-danger col-sm-12"></div>
+
+                <form action="power_bi.php" id="powerbiform" class="form-horizontal" role="form" method="post">
+
+                    <div style="margin-bottom: 25px; width: 100%" class="input-group">
+                        <input id="login-username" type="text" class="form-control" name="endpoint" value="" placeholder="End-Point..." required>
+                    </div>
+
+                    <div style="margin-bottom: 25px; width: 100%" class="input-group">
+                        <textarea style="resize: none" rows="4" id="login-password" type="password" class="form-control" name="query" placeholder="Query..." required></textarea>
+                    </div>
+
+                    <div style="margin-top:10px" class="form-group">
+                        <!-- Button -->
+
+                        <div class="col-sm-12 controls">
+                            <center><button type="submit" id="btn-login" href="#" class="btn btn-success">Submit </button></center>
+                        </div>
+                    </div>
+
+                </form>
+
+
+
+            </div>
+        </div>
+
+</div>
